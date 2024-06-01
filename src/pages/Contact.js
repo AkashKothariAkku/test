@@ -4,7 +4,7 @@ import { useFormHandeler } from "../coutomHook/useFormHandeler";
 import { useNavigate } from "react-router-dom";
 
 function Contact(){
-  const menu = [{name: "Home", url: "/"},{name: "About", url: "/about-us"},{name: "Services", url: "/service"},{name: "Courses", url: "/courses"}]
+  // const menu = [{name: "Home", url: "/"},{name: "About", url: "/about-us"},{name: "Services", url: "/service"},{name: "Courses", url: "/courses"}]
   const [show, setShow] = useState(false)
   const [field, setField] = useState({
     name: "akash",
